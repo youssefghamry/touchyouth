@@ -1,0 +1,23 @@
+.ui.menu {
+    .item{
+        font-size: 14px;
+    }
+    &.secondary.pointing{
+        .active.item, .active.item:hover{
+            color: $green;
+            border-color: $green;
+        }
+    }
+    &.small{
+        .item{
+            font-size: 13px;
+        }
+    }
+}
+
+.tab-secondary{
+    display: none;
+    &.active{
+        display: block;
+    }
+}
